@@ -1,0 +1,181 @@
+tap "annihilater/tap"
+tap "anomalyco/tap"
+tap "farion1231/ccswitch"
+tap "mongodb/brew"
+tap "nanobot-ai/tap"
+tap "sheeki03/tap"
+# Record and share terminal sessions
+brew "asciinema"
+# Improved shell history for zsh, bash, fish and nushell
+brew "atuin"
+# Command-line interface for SQLite
+brew "sqlite"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Command-line benchmark tool
+brew "bench"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Fast and simple Node.js version manager
+brew "fnm"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Distributed revision control system
+brew "git"
+# Render markdown on the CLI
+brew "glow"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Post-modern modal text editor
+brew "helix"
+# Improved top (interactive process viewer)
+brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# CLI for MySQL with auto-completion and syntax highlighting
+brew "mycli"
+# Open source relational database management system
+brew "mysql", restart_service: :changed
+# Open source relational database management system
+brew "mysql-client"
+# NCurses Disk Usage
+brew "ncdu"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
+# Manage multiple Node.js versions
+brew "nvm"
+# Pretty system information tool written in POSIX sh
+brew "pfetch"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Object-relational database system
+brew "postgresql@14", restart_service: :changed
+# Theme for zsh
+brew "powerlevel10k"
+# Persistent key-value database, with built-in net interface
+brew "redis", restart_service: :changed
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Safe, concurrent, practical language
+brew "rust"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Modern and pretty fancy file manager for the terminal
+brew "superfile"
+# Text interface for Git repositories
+brew "tig"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# HTTP benchmarking tool
+brew "wrk"
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Programming language designed for robustness, optimality, and clarity
+brew "zig"
+# UNIX shell (command interpreter)
+brew "zsh"
+# Annihilater's Ghostty terminal configuration with shaders and themes
+brew "annihilater/tap/ghostty-config"
+# The AI coding agent built for the terminal.
+brew "anomalyco/tap/opencode"
+# This package contains standard utilities for interacting with MongoDB.
+brew "mongodb/brew/mongodb-database-tools"
+# High-performance, schema-free, document-oriented database
+brew "mongodb/brew/mongodb-community"
+# Nanobot cli
+brew "nanobot-ai/tap/nanobot"
+# Terminal security - catches homograph attacks, pipe-to-shell, ANSI injection
+brew "sheeki03/tap/tirith"
+# Menu bar tool to limit maximum charging percentage
+cask "aldente"
+# User-friendly GUI app for Homebrew
+cask "applite"
+# Homebrew GUI app
+cask "cakebrewjs"
+# Configuration manager for Claude Code, Codex, Gemini and OpenCode
+cask "farion1231/ccswitch/cc-switch"
+# Code editor
+cask "codeedit"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Databases and SQL IDE
+cask "datagrip"
+# Information browser
+cask "folo"
+cask "font-jetbrains-mono-nerd-font"
+# GIT client
+cask "fork"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Open source API development ecosystem
+cask "hoppscotch"
+# Free and open-source media player
+cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# File archiver
+cask "keka"
+# Utility that shows the latest app updates
+cask "latest"
+# Open-source cross-platform alternative to AirDrop
+cask "localsend"
+# Utility to open, create and modify archive files
+cask "maczip"
+# Markdown editor
+cask "miaoyan"
+# Multi-platform web browser
+cask "microsoft-edge"
+# Minimal installer for conda
+cask "miniconda"
+# Database administration and development tool
+cask "navicat-premium-lite"
+# Replacement for Docker Desktop
+cask "orbstack"
+# Collaboration platform for API development
+cask "postman"
+# Easy to use Disk Cleanup Tools
+cask "prettyclean"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
+# Multiplayer code editor
+cask "zed"
+vscode "ahmadawais.shades-of-purple"
+vscode "bierner.markdown-mermaid"
+vscode "esbenp.prettier-vscode"
+vscode "grapecity.gc-excelviewer"
+vscode "janisdd.vscode-edit-csv"
+vscode "khaeransori.json2csv"
+vscode "mechatroner.rainbow-csv"
+vscode "phplasma.csv-to-table"
+vscode "repreng.csv"
+vscode "rust-lang.rust-analyzer"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "zaaack.markdown-editor"
+cargo "fd-find"
+cargo "ripgrep"
