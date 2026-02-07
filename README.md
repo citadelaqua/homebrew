@@ -19,13 +19,13 @@
 4. 从 brewfile 恢复所有软件
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/<你的用户名>/homebrew/main/setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/schip/homebrew/main/setup.sh | bash
 ```
 
 也可以手动克隆后运行：
 
 ```bash
-git clone <your-repo-url> ~/personal/homebrew
+git clone https://github.com/citadelaqua/homebrew.git ~/personal/homebrew
 cd ~/personal/homebrew
 ./restore.sh
 ```
